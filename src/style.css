@@ -1,0 +1,169 @@
+.section-bg {
+    padding: 5px 0;
+    text-align: center;
+    background-color: #001f5f !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: capitalize;
+    color: #001f5f !important;
+    font-family: "Poppins", sans-serif !important;
+}
+.img-grad {
+    background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), ;
+}
+.accordion-button {
+    font-weight: 600 !important;
+}
+.btn {
+    border-radius: 0 !important;
+}
+.m-w {
+    max-width: 900px;
+}
+.m-blz {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+}
+.w-p {
+    width: 150px;
+}
+.subscribe {
+    background: linear-gradient(rgba(19, 53, 123, .8), rgba(19, 53, 123, .7)), url(./assets/carousel-2.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.subscribe-title {
+    position: relative;
+    display: inline-block;
+    text-transform: uppercase;
+    color: var(--bs-white);
+}
+.mt-35 {
+    margin-top: -35px;
+}
+.booking {
+    background: linear-gradient(rgba(19, 53, 123, .8), rgba(19, 53, 123, .8)), url(./assets/tour-booking-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.classroom {
+    background: linear-gradient(rgba(2, 70, 44, 0.9), rgba(0, 0, 0, .9)), url(./assets/classroom.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+.bg-breadcrumb {
+    background: linear-gradient(rgba(8, 17, 37, 0.7), rgba(11, 26, 56, 0.8)), url(./assets/breadcrumb-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 150px 0 50px 0;
+}
+.features {
+    overflow: hidden;
+}
+.section-title {
+    margin: 0;
+    font-size: 24px;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+}
+.nav-link a {
+    color: #013b2f !important;
+}
+.green-bg {
+    background-color: #13357b;
+}
+.nav-link {
+    color: #000000 !important;
+    font-weight: 600;
+    border: none !important;
+
+}
+.nav-link.active {
+    color: var(--bs-nav-link-color) !important;
+    font-weight: 700;
+    border-bottom: 1px solid #66cbfe !important;
+}
+.nav-tabs {
+    border: none !important;
+}
+.details p {
+    font-size: 21px;
+}
+
+.blueColor{
+    color: #66cbfe;
+
+}
+
+.course-suitable {
+    background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(./assets/about-img-1.png);
+}
+#suitable {
+    background: linear-gradient(rgba(8, 17, 37, 0.7), rgba(11, 26, 56, 0.8)), url(./assets/For-Whom-The-Course-Is-Suitable-For.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0 50px 0;
+}
+
+
+#toolsTechnologies {
+    background: linear-gradient(rgba(29, 3, 113, 0.8), rgba(4, 65, 150, 0.9)),  url(./assets/Tools-&-Technologies-Covered.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0 50px 0;
+    background-attachment: fixed;
+
+}
+
+#alumniBg {
+    background: linear-gradient(rgba(25, 5, 139, 0.8), rgba(5, 2, 55, 0.9)),  url(./assets/Our-Alumni-Work-At.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0 50px 0;
+    background-attachment: fixed;
+
+}
+
+.whatApp {
+    position: fixed;
+    bottom: 20px;
+    right: 80px;
+}
+
+.phoneNumber {
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+}
+.whatApp:hover{
+    transform: scale(1.2) ;
+    transition: transform 0.3s ease;
+}
+
+.phoneNumber:hover{
+    transform: scale(1.2) ;
+    transition: transform 0.3s ease;
+}
+
+.carousel-indicators {
+    bottom: -45px !important;
+}
